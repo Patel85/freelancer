@@ -1,0 +1,40 @@
+.body {
+  @apply text-base leading-5 max-w-6xl mx-auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+  @apply text-5xl pt-1 pb-2 font-bold tracking-wide cursor-pointer;
+}
+
+.articleHeading {
+  @apply pt-1 pb-4 text-2xl leading-7 font-semibold tracking-wide;
+}
+
+.sectionHeading {
+  @apply pt-1 pb-2 text-3xl font-bold tracking-wide cursor-pointer text-gray-700;
+}
+
+.cardHeading {
+  @apply text-2xl pt-1 pb-2 font-semibold tracking-wide cursor-pointer;
+}
+
+.pageHeading {
+  @apply text-3xl pt-1 pb-2 leading-7 font-bold tracking-wide cursor-pointer;
+}
+
+.pageSubHeading {
+  @apply text-xl font-medium;
+}
+
+.accentText {
+  @apply pt-1 pb-2 font-semibold tracking-wide cursor-pointer text-accent text-left;
+}
+
+.text {
+  @apply pt-1 pb-2 tracking-wide;
+}
+
+.small {
+  @apply pt-1 pb-2 text-sm leading-tight;
+}

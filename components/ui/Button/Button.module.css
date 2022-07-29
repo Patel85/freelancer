@@ -1,0 +1,68 @@
+.root {
+  @apply font-medium cursor-pointer inline-flex
+  leading-6 transition ease-in-out duration-150
+  text-center justify-center
+  border items-center
+  tracking-wide;
+}
+
+.root:focus {
+  @apply outline-none;
+}
+
+.loading {
+  @apply bg-accent-1 text-accent-3 border-accent-2 cursor-not-allowed;
+}
+
+.slim {
+  @apply py-2 transform-none normal-case;
+}
+
+.ghost {
+  @apply border border-accent-2 bg-accent-0 text-accent-9 text-sm;
+}
+
+.ghost:hover {
+  @apply border-accent-9 bg-accent-9 text-accent-0;
+}
+
+.disabled,
+.disabled:hover {
+  @apply text-accent-4 border-accent-2 bg-accent-1 cursor-not-allowed;
+  filter: grayscale(1);
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+.primary {
+  @apply whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-primary;
+}
+
+.accent {
+  @apply whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-accent rounded-md shadow-sm text-primary bg-transparent hover:bg-gray-50;
+}
+
+.primary:hover {
+  @apply bg-primary-2 border-transparent;
+}
+
+.danger {
+  @apply whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-red;
+}
+
+.danger:hover {
+  @apply bg-red;
+}
+
+.flat {
+  @apply whitespace-nowrap text-base font-medium;
+}
+
+.wide {
+  @apply w-full max-w-xs;
+}
+
+.dangerOutline {
+  @apply whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-red rounded-md shadow-sm text-red bg-transparent;
+}

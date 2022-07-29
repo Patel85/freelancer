@@ -1,0 +1,49 @@
+@tailwind base;
+@import "./base.css";
+
+@tailwind components;
+@import "./components.css";
+
+@tailwind utilities;
+
+.main {
+  @apply relative min-h-screen px-2 container md:mx-auto sm:px-2;
+  max-width: 769px;
+}
+
+.carousel__dot {
+  @apply h-3 w-3 mx-1 rounded-full border-2 border-primary;
+}
+
+.carousel__dot--selected {
+  @apply bg-primary;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  @apply absolute z-50 px-4 py-2;
+  visibility: hidden;
+  text-align: center;
+  border-radius: 3px;
+  top: 150%;
+  left: -200%;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+}
+
+/* .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.65) transparent;
+} */
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

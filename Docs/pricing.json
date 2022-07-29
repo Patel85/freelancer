@@ -1,0 +1,113 @@
+[
+    {
+        "id": "first",
+        "name": "Individual",
+        "type": "free",
+        "rate": "0",
+        "tag": {
+            "tagged": false,
+            "text": "Popular"
+        },
+        "link": {
+            "text": "Get Started",
+            "href": "/",
+            "primary": false
+        },
+        "text": "Lorem ipsum dolor sit amet accusamus",
+        "features": [
+            {
+                "title": "free",
+                "points": [
+                    "Lorem ipsum",
+                    "sit amet consectetur"
+                ]
+            },
+            {
+                "title": "free",
+                "points": "Lorem ipsum"
+            }
+        ]
+    },
+    {
+        "id": "annualIndividual",
+        "name": "Individual",
+        "type": "Annual",
+        "rate": "20",
+        "tag": {
+            "tagged": true,
+            "text": "Most Popular"
+        },
+        "link": {
+            "text": "Get Started",
+            "href": "/",
+            "primary": true
+        },
+        "text": "Lorem ipsum dolor sit amet accusamus",
+        "features": [
+            {
+                "title": "pay",
+                "points": [
+                    "Lorem ipsum",
+                    "sit amet consectetur",
+                    "adipisicing elit repellat"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "team",
+        "name": "Team",
+        "type": "Business",
+        "rate": "30",
+        "tag": {
+            "tagged": true,
+            "text": "Most Popular"
+        },
+        "link": {
+            "text": "Get Started",
+            "href": "/",
+            "primary": true
+        },
+        "text": "Lorem ipsum dolor sit amet accusamus",
+        "features": [
+            {
+                "title": "pay1",
+                "points": [
+                    "Lorem ipsum",
+                    "sit amet consectetur",
+                    "adipisicing elit repellat",
+                    "disgnissimos",
+                    "laboriosam"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "customTeam",
+        "name": "Team",
+        "type": "Custom Price",
+        "rate": "50",
+        "tag": {
+            "tagged": false,
+            "text": "Popular"
+        },
+        "link": {
+            "text": "Get a quote",
+            "href": "/",
+            "primary": false
+        },
+        "text": "Lorem ipsum dolor sit amet accusamus",
+        "features": [
+            {
+                "title": "pay3",
+                "points": [
+                    "Lorem ipsum",
+                    "sit amet consectetur",
+                    "adipisicing elit repellat",
+                    "disgnissimos",
+                    "laboriosam"
+                ]
+            }
+        ]
+    }
+]

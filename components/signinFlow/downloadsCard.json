@@ -1,0 +1,22 @@
+[
+    {
+        "id": "desktop",
+        "image": {
+            "src": "/img/moniter.svg",
+            "alt": "Desktop Image"
+        },
+        "title": "Download the desktop app",
+        "text": "This is necessary to access all features",
+        "buttonText": "Download for Desktop"
+    },
+    {
+        "id": "mobile",
+        "image": {
+            "src": "/img/android.svg",
+            "alt": "Smart Phone Image"
+        },
+        "title": "Download the mobile app",
+        "text": "This is necessary to access all features",
+        "buttonText": "Download for Mobile"
+    }
+]
